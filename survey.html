@@ -9,18 +9,33 @@
      <body>
         <h1>RanaCamp Survey</h1>
         <p>Tell us about your interest, We will work for you !</p>
-
+    <fieldset>
+        <legend><strong>Personal Information🤫</strong></legend>
         <label for="First-Name">First Name: </label>
-        <input type="text" id="First-Name" name="Name" placeholder="Enter your first name" required >
+        <input type="text" id="First-Name" name="Name" placeholder="Enter your first name" required ><br>
 
         <label for="last-name">Last Name</label>
-        <input type="text" id="last-name" name="Last-name" placeholder="Enter your last name">
+        <input type="text" id="last-name" name="Last-name" placeholder="Enter your last name"><br>
     
         <label for="email">email</label>
-        <input type="email" id="email" name="email" placeholder="Your email adress" required>
+        <input type="email" id="email" name="email" placeholder="Your email adress" required><br>
 
         <label for="age">Age</label>
-        <input type="number" id="age" name="Age" placeholder="Age" min="15" max="55" required>
+        <input type="number" id="age" name="Age" placeholder="Age" min="15" max="55" required><br>
+           <p>What is your Gender?</p>
+        <label for="Female"> 
+            <input type="radio" id="female" name="Gender" value="female">Female
+        </label><br>
+
+        <label for="Male">
+            <input type="radio" id="male" name="Gender" value="male">Male
+        </label><br>
+
+        <label for="care-less">
+            <input type="radio" id="care-less" name="Gender" value="idkbro">Why do you care, bro ?
+        </label><br>
         
+    </fieldset>    
+
     </body>
 </html>
