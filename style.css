@@ -2,14 +2,11 @@ body {
 background: linear-gradient(to right, #f3e5f5 30%,#e0f7fa);
 text-align: center;
 }
-
-
 h1, .tag {
     text-align: center;
     }
 
-
-h1 {
+    h1 {
 
 font-family: 'Bangers' , cursive;
 font-size: 2.5rem;
@@ -18,11 +15,9 @@ border-bottom: 2px solid #4e860a;
 margin: 10px auto;
 padding: 10px;
 max-width:fit-content;
-
 }
 
 .tag {
-
 font-family: 'Bangers' , cursive;
 font-size: 1rem;
 margin-top: 10px;
@@ -39,7 +34,6 @@ margin-bottom: 12px;
 font-weight: bold;
 text-transform: uppercase;
 padding; 5px 0;
-
 }
 
 .info {
@@ -48,7 +42,6 @@ font-size: 0.9rem;
 display: inline;
 max-width: fit-content;
 font-weight: 600;
-
 }
 
 input[type="text"],
@@ -59,9 +52,7 @@ padding: 4px;
 width: 30%
 max-width: fit-content;
 box-sizing: border-box;
-
 }
-
 
 
 fieldset {
@@ -74,26 +65,26 @@ border-radius: 10px;
 background-color: #f9f9f9;
 box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
 }
+
 .ques {
 font-size: 1.3rem;
- 
-}
+ }
 
 .lang {
-    display: flex;
-    flex-wrap: wrap;
-   gap: 8px 16px;
-  justify-content: center;
-  max-width: 600px;
-  margin: auto;
-  
-}
-.lang label {
+display: flex;
+flex-wrap: wrap;
+gap: 8px 16px;
+justify-content: center;
+max-width: 600px;
+margin: auto;
+  }
+
+  .lang label {
 width: 130px;
 display: flex;
 align-items: center;
-
 }
+
 .soft-bold {
 font-weight: 600;
 font-size: 17px;
@@ -101,6 +92,7 @@ margin-top: 20px;
 margin-bottom: 10px;
 color: #333;
 }
+
 .submit {
   display: block;
   margin: 20px auto;
