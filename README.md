@@ -1,5 +1,6 @@
 Hey there!! A beginner here !!
-This is a basic (and I mean **basic-basic**) survey form that I built while learning HTML.  
+
+This is a basic survey form that I built while learning HTML and css.  
 I'm currently focusing on building small projects like this to strengthen my fundamentals before jumping into styling, JavaScript, or anything too wild.
 
 ## 😄 Why I Made This:
@@ -14,20 +15,21 @@ I wanted to get some experience with:
 # Live Project:
 
 Check it out live here:  
-🔗 [https://commitrana.github.io/Survey/](https://commitrana.github.io/Survey/)
+🔗 (https://commitrana.github.io/Survey/)
 
 # 🛠️ Tech Used:
 
-- HTML5 (no CSS yet-but will be there very soon)
-- Git + GitHub
-- GitHub Pages for deployment
+- **HTML5**
+- **CSS3** (basic styling)
+- **Git** + **GitHub**
+- **GitHub Pages** (for deployment)
 
-## 📌 What I'm Working On Next:(reminder to myself as well)
+## 📌 What I'm Working On Next:
 
-- Adding **CSS** to make the form look cleaner (right now it’s just raw HTML vibes 🥲)
-- Making it responsive for mobile users
-- Maybe adding JavaScript for basic validation or interactions
-- Figuring out how to store form responses (eventually)
+-Improve styling with cleaner and responsive CSS
+- Add JavaScript for validation or interactivity
+- Figure out how to store form responses (maybe with Google Sheets or backend later)
+- keep learning
 
 ## Just Being Honest:
 
