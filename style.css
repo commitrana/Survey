@@ -42,6 +42,7 @@ font-family: Merienda;
 font-size: 0.9rem;
 display: inline;
 max-width: fit-content;
+font-weight: 600;
 
 }
 
@@ -53,6 +54,7 @@ padding: 4px;
 width: 30%
 max-width: fit-content;
 box-sizing: border-box;
+
 }
 
 
@@ -64,4 +66,20 @@ padding: 20px;
 border-radius: 10px;
 background-color: whitesmoke;
 }
+.ques {
+font-size: 1.3rem;
+ 
+}
+
+.lang {
+    display: inline;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    
+}
+.soft-bold {
+font-weight: 600;
+}
+
 
