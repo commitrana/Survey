@@ -16,7 +16,7 @@
     </div>
         <fieldset>
     
-        <legend><strong>Personal Information🤫</strong></legend>
+        <legend class="head1"><strong>Personal Information🤫</strong></legend>
         <div class="info">
         <label for="First-Name">First Name: </label>
         <input type="text" id="First-Name" name="Name" placeholder="Enter your first name" required ><br>
@@ -46,7 +46,8 @@
     </fieldset>  
     <fieldset>
         <p>1.What type of dev work are you tryna dominate?</p>
-        <legend><strong>Answer the Questions below:</strong></legend>
+        <legend class="head1"><strong>Answer the Questions below:</strong></legend>
+        <div>
         <label for="dev-type">
             <input type="checkbox" id="dev-type" name="skills" value="frontend">frontend Development
         </label><br>
@@ -71,7 +72,9 @@
         <label for="dev-type">
             <input type="checkbox" id="dev-type" name="skills" value="Data">Data Science/Data Engineering
         </label><br>
+</div>
 
+<div>
         <p>2. Are you currently learning any language?</p>
         <label><input type="radio" name="learning" value="yes">Yes</label>
         <label><input type="radio" name="learning" value="No">No</label>
@@ -90,7 +93,9 @@
         <label><input type="checkbox" name="language" value="c#">C#</label><br>
         <label><input type="checkbox" name="language" value="sql">SQL</label><br>
         <label><input type="checkbox" name="language" value="others">Others</label><br>
+</div>
 
+<div>
         <p>3.Which languages are in your current skillset?</p>
         <label><input type="checkbox" name="language" value="html">HTML</label><br>
         <label><input type="checkbox" name="language" value="css">CSS</label><br>
@@ -103,14 +108,20 @@
         <label><input type="checkbox" name="language" value="sql">SQL</label><br>
         <label><input type="checkbox" name="language" value="others">Others</label><br>
         <label><input type="checkbox" name="language" value="none">NONE</label><br>
+</div>
 
+<div>
         <p>4.How long have you been coding?</p>
         <label><input type="radio" name="experience" value="just starting">Just Starting</label><br>
         <label><input type="radio" name="experience" value="less-than-3m">Less than 3 months</label><br>
          <label><input type="radio" name="experience" value="3-6m">3-6 months</label><br>
          <label><input type="radio" name="experience" value="6-12m">6-12 months</label><br>
          <label><input type="radio" name="experience" value="over-a-year">Over a year</label><br>
-    
+
+</div>
+
+<div>
+
          <p>5.How do you usually learn?</p>
          <label><input type="checkbox" name="source" value="youtube">Youtube</label><br>
          <label><input type="checkbox" name="source" value="courses(free)">Free courses</label><br>
@@ -118,7 +129,7 @@
          <label><input type="checkbox" name="source" value="Bootcamps">Bootcamps</label><br>
          <label><input type="checkbox" name="source" value="docs">Self-taught via books/docs</label><br>
         </fieldset> 
-         
+</div>      
           <a href="register-success.html">
         <button>Register</button>
         </a>
