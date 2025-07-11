@@ -1,8 +1,13 @@
+body {
+background: linear-gradient(to right, #f3e5f5 30%,#e0f7fa);
+text-align: center;
+}
+
+
 h1, .tag {
     text-align: center;
-    
-    
-}
+    }
+
 
 h1 {
 
@@ -24,5 +29,39 @@ margin-top: 10px;
 padding: 0;
 color: #228800;
 line-height: 1.5;
+}
+
+.head1 {
+font-size: 1.3rem;
+color: #00584b;
+
+}
+
+.info {
+font-family: Merienda;
+font-size: 0.9rem;
+display: inline;
+max-width: fit-content;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+margin-top: 5px;
+padding: 4px;
+width: 30%
+max-width: fit-content;
+box-sizing: border-box;
+}
+
+
+
+fieldset {
+max-width: 600px;
+margin: 30px auto;
+padding: 20px;
+border-radius: 10px;
+background-color: whitesmoke;
 }
 
